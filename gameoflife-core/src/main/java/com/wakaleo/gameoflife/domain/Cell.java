@@ -6,12 +6,12 @@ public enum Cell {
     private String symbol
 
     private Cell(String symbol) {
-        this.symbol = symbol;
+        this.symbol = symbol
     }
 
     @Override
     public String toString() {
-        return symbol;
+        return symbol
     }
 
     static Cell fromSymbol(String symbol) {
